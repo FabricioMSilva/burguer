@@ -1,0 +1,12 @@
+.wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background-color: black;   
+}
+
+.Image12 {
+    width: 25%;
+    border-radius: 500px black;
+}

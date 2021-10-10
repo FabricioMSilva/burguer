@@ -1,0 +1,121 @@
+
+
+.Zapp{
+    width: 60px;
+  position:fixed;
+  bottom:20px;
+  margin-left: 80%;
+  right:20px;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+  
+  }
+  
+  
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 ;
+    background-color: rgb(172, 7, 7);
+
+    
+}
+.oiii
+
+
+.menu {
+    width: 100%;  
+   
+    background: color 0;
+    color:black;
+    position: sticky;
+    left: 0;
+    transition: left .9s;
+    
+}
+
+.profile {
+
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    padding-left: 1rem;
+    background: rgb(246,164,12);
+    background: linear-gradient(90deg, rgba(246,164,12,1) 35%, rgba(255,0,78,1) 100%);
+}
+
+.profile-img {
+    display: block;
+    width: 100px;   
+    padding-right: 1rem;
+}
+
+.profile-img img {
+
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.status {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  
+}
+
+.status::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+}
+
+/*menus*/
+
+.navigation-menu ul {
+    list-style: none;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+}
+.navigation-menu li {
+    position: relative; /* Necessário para flutuar os submenus */
+}
+.navigation-menu a {
+    color: #333333;
+    border: 3px rgb(12, 1, 1) solid;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(246,164,12);
+    background: linear-gradient(90deg, rgba(246,164,12,1) 35%, rgba(255,0,78,1) 100%);
+    font-size: 13pt;
+}
+.navigation-menu a:hover {
+    background-color:red;
+    color: #ffffff;
+}
+
+/*Ocultando e mostrando os submenus quando passar o mouse*/
+
+.navigation-menu li ul {
+    display: none;
+}
+
+.navigation-menu li:hover > ul {
+    display: block;
+}
+.navigation-menu li ul {
+    position: absolute;
+    left: 100%; /* Posiciona o menu filho ao lado do menu pai */
+    top: 0; /* Posiciona o menu filho no topo do menu pai */
+}
+
