@@ -13,7 +13,7 @@ import './Video/App1.css';
 function Menuingradientes() {
   return (
     <Router>
-<div  className="">
+   
     <div>
         <Menuingradientesbase/>
     </div>
@@ -26,7 +26,7 @@ function Menuingradientes() {
         
 
     </Switch>
-    </div>
+   
    
     </Router>
   

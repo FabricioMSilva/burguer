@@ -11,10 +11,10 @@ import './Video/App1.css';
 function Menuplan() {
   return (
     <Router>
-<div  className="">
-    <div>
+    
+      <div>
         <Menuplanbase/>
-    </div>
+      </div>
     <Switch>
        
         <Route path="/pag2" exact component={Page2}/>
@@ -24,7 +24,7 @@ function Menuplan() {
         
 
     </Switch>
-    </div>
+   
    
     </Router>
   
