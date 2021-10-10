@@ -16,8 +16,7 @@ import Page12 from "./componentes/corpo/pages/page12";
 import Page13 from "./componentes/corpo/pages/page13";
 import Page0 from "./componentes/smart";
 import './App.css';
-import Menuplan from "./componentes/corpo/pages/menuplan";
-import Menuingradientes from "./componentes/corpo/pages/menuindradientes";
+
 
 function App() {
   return (
@@ -29,12 +28,12 @@ function App() {
         </div>
         <Switch>
         <Route path="/pag1" exact component={Page1}/>
-        <Route path="/menuplan" exact component={Menuplan}/>
+      
 
         <Route path="/pag3" exact component={Page3}/>
         <Route path="/pag4" exact component={Page4}/>
         <Route path="/pag5" exact component={Page5}/>
-        <Route path="/menuingradientes" exact component={Menuingradientes}/>
+    
         <Route path="/pag6" exact component={Page6}/>
         <Route path="/pag7" exact component={Page7}/>
         <Route path="/pag8" exact component={Page8}/>
