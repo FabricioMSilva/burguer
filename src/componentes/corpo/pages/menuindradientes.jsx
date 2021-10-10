@@ -6,7 +6,7 @@ import Page10 from "./page10";
 import Menuingradientesbase from "./menuingradientesbase";
 import {BrowserRouter as Router, Route , Switch} from "react-router-dom";
 
-import {BrowserRouter as Router, Route} from "react-router-dom";
+
 
 import './Video/App1.css';
 
