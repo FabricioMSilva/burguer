@@ -27,7 +27,7 @@ function App() {
         <div className="nav-bar sticky-top">
         <Page0/>
         </div>
-          <switch>
+          <Switch>
         <Route path="/pag1" exact component={Page1}/>
         <Route path="/menuplan" exact component={Menuplan}/>
 
@@ -45,7 +45,7 @@ function App() {
         <Route path="/pag13" exact component={Page13}/>
         
 
-         </switch>
+         </Switch>
 
                     
         <footer className="footer d-flex bg-dark container-fluid  p-0 justify-content-arround text-light text-center">
