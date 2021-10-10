@@ -1,7 +1,7 @@
 
 import React from "react";
 import Page1 from "./componentes/corpo/pages/page1";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route , Switch} from "react-router-dom";
 import Page3 from "./componentes/corpo/pages/page3";
 import Ernane from "./componentes/smart/img/ernane.png";
 import Page4 from "./componentes/corpo/pages/page4";
@@ -27,7 +27,7 @@ function App() {
         <div className="nav-bar sticky-top">
         <Page0/>
         </div>
-          <Switch>
+        <Switch>
         <Route path="/pag1" exact component={Page1}/>
         <Route path="/menuplan" exact component={Menuplan}/>
 
