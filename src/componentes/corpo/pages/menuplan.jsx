@@ -3,7 +3,7 @@ import Page2 from "./page2";
 import Page3 from "./page3";
 import Page4 from "./page4";
 import Menuplanbase from "./Menuplanbase";
-import {BrowserRouter as Router, Route , Switch} from "react-router-dom";
+
 
 
 import './Video/App1.css';

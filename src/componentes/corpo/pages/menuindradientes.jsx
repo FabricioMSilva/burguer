@@ -4,7 +4,7 @@ import Page8 from "./page8";
 import Page9 from "./page9";
 import Page10 from "./page10";
 import Menuingradientesbase from "./menuingradientesbase";
-import {BrowserRouter as Router, Route , Switch} from "react-router-dom";
+
 
 
 
