@@ -12,23 +12,12 @@ import './Video/App1.css';
 
 function Menuingradientes() {
   return (
-    <Router>
+   
    
     <div>
         <Menuingradientesbase/>
     </div>
-    <Switch>
-       
-        <Route path="/pag7" exact component={Page7}/>
-        <Route path="/pag8" exact component={Page8}/>
-        <Route path="/pag9" exact component={Page9}/>
-        <Route path="/pag10" exact component={Page10}/>
-        
-
-    </Switch>
    
-   
-    </Router>
   
   );
 }
