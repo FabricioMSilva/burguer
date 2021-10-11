@@ -43,7 +43,7 @@ function App() {
 
         <footer className="footer d-flex bg-dark container-fluid  p-0 justify-content-arround text-light text-center">
           <div>
-            <img className="ernan" src={Ernane} alt="foto"></img>
+            <img className="ernan img-fluid img-thumbnail" src={Ernane} alt="foto"></img>
             <p>Ernane Mendes</p>
             <p>Propritário</p>
           </div>
