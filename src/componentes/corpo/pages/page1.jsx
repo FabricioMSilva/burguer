@@ -23,7 +23,7 @@ const Page1 = () => {
           irá esquecer.
         </div>
         <div className="embed-responsive embed-responsive-16by9 text-center px-4 mt-4">
-          <iframe  className="embed-responsive-item"  src={Vid1} alt="video" allowfullscreen ></iframe>
+          <iframe  className="embed-responsive-item" title="video" src={Vid1} alt="video" allowfullscreen ></iframe>
         </div>
       </div>
     </div>
