@@ -5,7 +5,7 @@ import "./Video/App1.css";
 function Menuplanbase() {
   return (
     <div className="menu " role="navigation">
-      <div className="text-center h1">Planejamento</div>
+      <div className="text-center h1 bg-light">Planejamento</div>
 
       <div className="container-fluid p-0 ">
         <nav
@@ -13,18 +13,18 @@ function Menuplanbase() {
           role="navigation"
         >
           <section
-            className="collapse navbar-collapse justify-content-center "
+            className="collapse navbar-collapse justify-content-center  "
             id="navbarToggleExternalContent"
           >
             <div className="navbar-nav  ">
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag3">
-                CARDÁPIO
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag3">
+                Cardápio
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag4">
-                PUBLICIDADE
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag4">
+                Publicidade
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag5">
-                EMBALAGENS
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag5">
+                Embalagens
               </Link>
             </div>
           </section>

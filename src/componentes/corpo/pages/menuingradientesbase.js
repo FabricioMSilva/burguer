@@ -5,7 +5,7 @@ import "./Video/App1.css";
 function Menuingradientesbase() {
   return (
     <div className="menu " role="navigation">
-      <div className="text-center h1">Ingradientes</div>
+      <div className="text-center h1 bg-light">Ingradientes</div>
 
       <div className="container-fluid p-0 ">
         <nav
@@ -17,17 +17,17 @@ function Menuingradientesbase() {
             id="navbarToggleExternalContent"
           >
             <div className="navbar-nav  ">
-              <Link className="nav-item nav-link btn-group btn-dark" to="/pag9">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="/pag9">
                 Hamburguer
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="/pag8">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="/pag8">
                 Pães
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="/pag7">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="/pag7">
                 Carnes
               </Link>
               <Link
-                className="nav-item nav-link btn-group btn-dark"
+                className="nav-item nav-link btn-group  text-white btn-dark"
                 to="/pag10"
               >
                 Molhos

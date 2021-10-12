@@ -5,11 +5,11 @@
   align-content: center;
   height: 100%;
 
-  box-shadow: outset 0 0 15px 10px red;
+  
 }
 
 .fundo {
-  background: rgb(102, 3, 3);
+  background: rgb(2, 2, 2);
   background-size: 300% 300%;
 
   height: 100%;

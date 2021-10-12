@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Page1 from "./componentes/corpo/pages/page1";
 import Page3 from "./componentes/corpo/pages/page3";
-import Ernane from "./componentes/smart/img/ernane.png";
+
 import Page4 from "./componentes/corpo/pages/page4";
 import Page5 from "./componentes/corpo/pages/page5";
 import Page6 from "./componentes/corpo/pages/page6";
@@ -16,6 +16,8 @@ import Page13 from "./componentes/corpo/pages/page13";
 import Page0 from "./componentes/smart";
 import Menuplan from "./componentes/corpo/pages/menuplan";
 import Menuingradientes from "./componentes/corpo/pages/menuindradientes";
+import Footer1 from "./componentes/footer.jsx"
+
 
 function App() {
   return (
@@ -40,14 +42,10 @@ function App() {
           <Route path="/pag12" component={Page12} />
           <Route path="/pag13" component={Page13} />
         </Switch>
-
-        <footer className="footer d-flex bg-dark container-fluid  p-0 justify-content-arround text-light text-center">
-          <div>
-            <img className="img-fluid img-thumbnail rounded float-right" src={Ernane} alt="foto"></img>
-            <p>Ernane Mendes</p>
-            <p>Propritário</p>
-          </div>
-        </footer>
+        <div>
+          <Footer1 />
+        </div>
+        
       </Router>
     </div>
   );

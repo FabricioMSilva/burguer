@@ -12,7 +12,7 @@ function Page0() {
           role="navigation"
         >
           <div className="navbar-brand text-white">
-            <i class="fas fa-burger-soda fa-2x navbar-brand text-white"></i>{" "}
+            <i class="fas fa-burger-soda fa-2x navbar-brand "></i>{" "}
             E-Burguer Trainner
           </div>
 
@@ -21,33 +21,33 @@ function Page0() {
             id="navbarToggleExternalContent"
           >
             <div className="navbar-nav">
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag1">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag1">
                 HOME
               </Link>
               <Link
-                className="nav-item nav-link btn-group btn-dark"
+                className="nav-item nav-link btn-group text-white btn-dark"
                 to="menuplan"
               >
                 PLANEJAMENTO
               </Link>
 
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag6">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag6">
                 LOGISTICA
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag11">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag11">
                 MARKETING
               </Link>
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag12">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag12">
                 EQUIPAMENTOS
               </Link>
               <Link
-                className="nav-item nav-link btn-group btn-dark"
+                className="nav-item nav-link btn-group text-white btn-dark"
                 to="menuingradientes"
               >
                 INGRADIENTES
               </Link>
 
-              <Link className="nav-item nav-link btn-group btn-dark" to="pag13">
+              <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag13">
                 ACOMPANHAMENTOS
               </Link>
             </div>
