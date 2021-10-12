@@ -12,7 +12,7 @@ function Page0() {
           role="navigation"
         >
           <div className="navbar-brand text-white">
-            <i class="fas fa-burger-soda fa-2x navbar-brand "></i>{" "}
+            <i className="fas fa-burger-soda fa-2x navbar-brand "></i>
             E-Burguer Trainner
           </div>
 
@@ -44,7 +44,7 @@ function Page0() {
                 className="nav-item nav-link btn-group text-white btn-dark"
                 to="menuingradientes"
               >
-                INGRADIENTES
+                INGREDIENTES
               </Link>
 
               <Link className="nav-item nav-link btn-group text-white btn-dark" to="pag13">
