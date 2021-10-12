@@ -30,7 +30,7 @@ return (
                             <li>Acompanhamentos</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 item text">
+                    <div class="col-md-6 item text align-items-center ">
                         <h2>E-Burguer</h2>
                         <p> Ｅ！Ｂｕｒｇｅｒ’ｓ<br/>
                             Burger Restaurant<br/>
@@ -40,8 +40,12 @@ return (
                             👉🏼Recuse Imitações<br/>
                             📱24 98845-2525 </p>
                             <a href="https://eburgersbm.grandchef.com.br/"target="parent" rel="noopener" >Site para pedidos E-Burguer</a>
+                        <div className="m-3 d-flex align-items-center">
+                            <div class=" m-3 d-flex align-items-center"><a href="https://www.facebook.com/E-Burgers-105759164386676" target="parent" rel="noopener"><i class=" fab fa-facebook-square fa-3x fa-bar"></i></a><br/></div>
+                            <div class=" m-3 d-flex align-items-center"><a href="https://www.instagram.com/e_burgers_/" target="parent" rel="noopener"><i class="fab fa-instagram fa-3x fa-bar"></i></a></div>
+                        </div>
                     </div>
-                    <div class=""><a href="https://www.facebook.com/E-Burgers-105759164386676" target="parent" rel="noopener"><i class=" fab fa-facebook-square fa-3x fa-bar"></i></a><br/><a href="https://www.instagram.com/e_burgers_/" target="parent" rel="noopener"><i class="fab fa-instagram fa-3x fa-bar"></i></a></div>
+                   
                 </div>
                 <p class="copyright">E-Burguer © 2020</p>
             </div>
