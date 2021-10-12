@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Video/App1.css";
-
+import Page2 from "./page2";
 function Menuplanbase() {
   return (
     <div className="menu " role="navigation">
@@ -30,7 +30,9 @@ function Menuplanbase() {
           </section>
         </nav>
       </div>
-      <div className="pagina1"></div>
+      <div className="pagina1">
+
+      </div>
     </div>
   );
 }

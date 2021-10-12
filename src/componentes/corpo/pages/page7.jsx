@@ -7,23 +7,22 @@ const Page7 = () => {
   return (
     <div className="fundo">
       <Menuingradientesbase />
-      <div class="pagina1">
-        <div class="h1 text-center">Tipos de carnes</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="text-center h1 bg-dark text-light">Tipos de carnes</div>
 
-        <div class="texto">
+        <div className="texto">
           <br />
           Veja abaixo destacado os principais cortes bovinos para composição do
           seu Blend. Lembrando que caso sua escolha seja uma carne com pouca ou
           sem gordura é importante que você complete com gordura ou faça a
           mistura entre cortes com mais e menos gordura.
           <br />
-          <div class="img1">
-            <img alt="imgburguer" src={imagen15} width="100%"></img>
+          <div className="d-inline p-2 text-center">
+            <img className="rounded mx-auto d-block" width="50%" alt="imgburguer"src={imagen15} width="100%"></img>
           </div>
           <br />
-          <div class="titulo">Peso do Hambúrguer</div>
-          <br />
-          <br />
+          <div className="text-center h1 bg-dark text-light">Peso do Hambúrguer</div>
+          
           O peso do Hambúrguer pode variar entre 70 e 200 Gramas e algumas
           Hamburgueria na linha de Burger "low cost" (Hambúrguer Barato) fazem
           sua produção com Hambúrguer à 100 Gramas. <br />
@@ -32,10 +31,10 @@ const Page7 = () => {
           do Burger que por sua vez pode ser baixo ou alto também.
           <br />
           <br />
-          <div class="img1">
-            <img alt="imgburguer" src={imagen16} width="100%"></img>
+          <div className="d-line p-2 text-center">
+            <img className="rounded mx-auto"  alt="imgburguer" src={imagen16} ></img>
           </div>
-          <div class="titulo">
+          <div className="text-center h1 bg-dark text-light">
             Tipos de Blends mais usados nas Hamburgueirias
           </div>
           <br />

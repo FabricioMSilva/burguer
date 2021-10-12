@@ -4,10 +4,10 @@ const Page3 = () => {
   return (
     <div className="fundo">
       <Menuplan />
-      <div className="pagina1">
-        <div class="h2">Cardápio</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="text-center h1 bg-dark text-light">Cardápio</div>
 
-        <div class="texto">
+        <div className="texto text-justify ">
           <b>Escolha do Cardápio:</b>
           <br />
           <br />
@@ -40,13 +40,13 @@ const Page3 = () => {
           <br />
         </div>
 
-        <div class="texto">
-          Para quem é apaixonado por esse ramo, e quer abrir seu próprio
+        <div className="text text-justify">
+          Para quem é apaixonado por esse ramo, se quer abrir seu próprio
           negócio, uma Hamburgueria é uma boa opção já que esse mercado está em
           grande expansão.
           <br />
           <br />
-          <p align="center" class="subtitulo">
+          <p align="center" className="text-center h2 bg-light">
             <b>
               Deve seguir alguns passos fundamentais para o sucesso do Negócio
             </b>

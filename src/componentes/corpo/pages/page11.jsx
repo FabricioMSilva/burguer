@@ -2,11 +2,11 @@ import React from "react";
 const Page11 = () => {
   return (
     <div className="fundo">
-      <div className="pagina1">
-        <div className="h1 text-center">MARKETING</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="text-center h1 bg-dark text-light">Marketing</div>
 
-        <div className="texto">
-          Garanta uma comunicação clara
+        <div className="texto text-justify">
+          <b>Garanta uma comunicação clara</b>
           <br />
           <br />
           É claro que a encomenda por telefone ainda prevalece, mas também pode
@@ -16,7 +16,7 @@ const Page11 = () => {
           pedido dos clientes.
           <br />
           <br />
-          Como divulgar seu Delivery na sua cidade
+          <b>Como divulgar seu Delivery na sua cidade</b>
           <br />
           <br />
           Mídia social Anuncie seu serviço de delivery em suas páginas de mídia
@@ -29,7 +29,7 @@ const Page11 = () => {
           interagindo com o seu publico (clientes).
           <br />
           <br />
-          Como fidelizar seus clientes Delivery
+          <b>Como fidelizar seus clientes Delivery</b>
           <br />
           <br />
           Muitas pequenas empresas ainda subestimam o poder da lealdade do
@@ -42,24 +42,24 @@ const Page11 = () => {
           clientes realmente querem de um serviço de entrega?
           <br />
           <br />
-          • Eficiência :
+          <b>Eficiência :</b>
           <br />
           <br />
           Desde a coleta até a entrega, a pontualidade dos serviços.
           <br />
           <br />
-          • Flexibilidade:
+          <b>Flexibilidade:</b>
           <br />
           <br />
           A capacidade de se adaptar às mudanças devido a circunstâncias
           imprevistas <br />
           <br />
-          • Atendimento ao cliente:
+          <b>Atendimento ao cliente:</b>
           <br />
           <br />
           Dando ao cliente a atenção necessária, apoiando-o através do serviço.
-          <div className="titulo">Segurança</div>
-          • Valor justo :
+          <div className="text-center h1 bg-light">Segurança</div>
+          <b>Valor justo :</b>
           <br />
           <br />
           Preços que não ultrapassam os limites caso sempre ofereça aos seus
@@ -67,10 +67,9 @@ const Page11 = () => {
           motivo para que eles não solicitem seus serviços repetidamente.
           <br />
           <br />
-          <br />
-          <br />
-          • Medindo a satisfação - de o cliente Assumir que seu cliente está
-          satisfeito, não é suficiente. <br />
+         
+          <b>Medindo a satisfação - de o cliente Assumir que seu cliente está
+          satisfeito, não é suficiente. </b><br />
           <br />
           Embora você esteja certo ou errado, é melhor reunir fatos. Os fatos
           também ajudam a planejar e prever suas atividades comerciais. Quando
@@ -84,7 +83,7 @@ const Page11 = () => {
           existentes.
           <br />
           <br />
-          • Dia de promoção: <br />
+          <b>Dia de promoção:</b> <br />
           <br />
           As principais Hamburgueria geralmente apresentam banners destacando
           uma promoção por tempo limitado - os clientes devem concluir a compra
@@ -96,19 +95,19 @@ const Page11 = () => {
           clientes de voltarem a solicitar novos pedidos de delivery.
           <br />
           <br />
-          • Cartão fidelidade e Descontos:
+          <b>Cartão fidelidade e Descontos:</b>
           <br />
           <br />
           Os programas de fidelidade inspiram os clientes a aumentar os pedidos
           de delivery do seu restaurante. Seu programa de fidelidade deve ter
           uma das seguintes metas: <br />
           <br />
-          • Manter os hábitos de consumo dos clientes, em um esforço para
+          Manter os hábitos de consumo dos clientes, em um esforço para
           reverter o declínio natural na atividade de pedidos que, de outra
           forma, tende a ocorrer ao longo do tempo.
           <br />
           <br />
-          • Aumentar as vendas, aprimorando um sentimento de inclusão e lealdade
+          Aumentar as vendas, aprimorando um sentimento de inclusão e lealdade
           ao seu negócio
           <br />
           <br />

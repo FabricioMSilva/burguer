@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Page1 from "./componentes/corpo/pages/page1";
 import Page3 from "./componentes/corpo/pages/page3";
-
+import Page2 from "./componentes/corpo/pages/page2";
 import Page4 from "./componentes/corpo/pages/page4";
 import Page5 from "./componentes/corpo/pages/page5";
 import Page6 from "./componentes/corpo/pages/page6";
@@ -17,6 +17,7 @@ import Page0 from "./componentes/smart";
 import Menuplan from "./componentes/corpo/pages/menuplan";
 import Menuingradientes from "./componentes/corpo/pages/menuindradientes";
 import Footer1 from "./componentes/footer.jsx"
+import BtoZap from "./componentes/zap/Zapbto";
 
 
 function App() {
@@ -26,7 +27,10 @@ function App() {
         <div className="nav-bar sticky-top">
           <Page0 />
         </div>
+        
         <Switch>
+        <Route path="/pag2" component={Page2} />
+          <Route path="/" exact component={Page1} />
           <Route path="/pag1" component={Page1} />
           <Route path="/menuplan" component={Menuplan} />
           <Route path="/pag3" component={Page3} />
@@ -45,7 +49,9 @@ function App() {
         <div>
           <Footer1 />
         </div>
-        
+        <div><BtoZap/>
+        </div>
+
       </Router>
     </div>
   );

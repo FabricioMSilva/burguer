@@ -13,10 +13,10 @@ import Img13 from "./imagens_pages/numeradas/13.png";
 const Page12 = () => {
   return (
     <div className="fundo">
-      <div className="pagina1">
-        <div className="h1 text-center">EQUIPAMENTOS</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="h1 text-center">Equipamentos</div>
 
-        <div className="texto">
+        <div className="texto text-justify">
           <b>Cozinha Organizada</b>
           <br />
           <br />
@@ -66,7 +66,7 @@ const Page12 = () => {
           <br />
           <br />
           <div>
-            <img className="foto1" src={Img3} alt=""></img>
+            <img className="rounded mx-auto d-block" src={Img3} width="50%" alt="img.png"></img>
           </div>
           <br />
           <br />
@@ -136,9 +136,9 @@ const Page12 = () => {
           </b>
           <br />
           <br />
-          <div>
-            <img className="foto1" src={Img5} alt=""></img>
-            <img className="foto1" src={Img6} alt=""></img>
+          <div className="d-inline p-2">
+            <img className="rounded mx-auto" src={Img5} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img6} alt="img.png"></img>
           </div>
           <br />
           <br />
@@ -259,11 +259,12 @@ const Page12 = () => {
           momento de formar um disco utilizando um aro. Use uma colher de sopa
           em vez de dedos para espalhar a bola no aro e alisá-la para evitar que
           a carne aqueça.
-          <div>
-            <img className="foto1" src={Img6} alt=""></img>
-            <img className="foto1" src={Img7} alt=""></img>
-            <img className="foto1" src={Img8} alt=""></img>
-            <img className="foto1" src={Img9} alt=""></img>
+          <br /> <br />
+          <div className="d-inline p-2">
+            <img className="rounded mx-auto" src={Img6} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img7} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img8} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img9} alt="img.png"></img>
           </div>
           <br />
           <br />
@@ -296,10 +297,10 @@ const Page12 = () => {
           Chapa de ferro
           <br />
           <br />
-          <div>
-            <img className="foto1" src={Img11} alt=""></img>
-            <img className="foto1" src={Img12} alt=""></img>
-            <img className="foto1" src={Img13} alt=""></img>
+          <div className= "d-inline p-2">
+            <img className="rounded mx-auto" src={Img11} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img12} alt="img.png"></img>
+            <img className="rounded mx-auto" src={Img13} alt="img.png"></img>
           </div>
           <br />
           <br />
@@ -353,7 +354,7 @@ const Page12 = () => {
           <br />
           <br />
           <br />
-          <p className="titulo">Aviso importante</p>
+          <p className="text text-center h4">Aviso importante</p>
           • A posição do fogo na panela também interferirá na geração de calor.
           Se a panela não estiver centralizada, o cozimento da carne não será
           por igual.
@@ -410,9 +411,9 @@ const Page12 = () => {
           <br />O chair broiler podem cozinhar alimentos mais saborosos e menos
           defumados através do sistema de dissipação de calor da placa de
           deflexão e aquecer uniformemente a área de preparação para tornar o
-          hambúrguer mais delicioso.
-          <div className="foto1">
-            <img src={Img13} alt=""></img>
+          hambúrguer mais delicioso. <br />
+          <div className= "d-inline p-2" >
+            <img className="rounded mx-auto" src={Img13} alt="img.png"></img>
           </div>
           <br />
           <br />

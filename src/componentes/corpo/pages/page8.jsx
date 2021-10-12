@@ -5,21 +5,16 @@ import Imagen19 from "./imagens_pages/numeradas/19.png";
 import Imagen20 from "./imagens_pages/numeradas/20.png";
 import Imagen21 from "./imagens_pages/numeradas/21.png";
 import Imagen22 from "./imagens_pages/numeradas/22.png";
-import Imagen23 from "./imagens_pages/numeradas/23.png";
+import Selado from "./imagens_pages/numeradas/selado.png";
 import Menuingradientesbase from "./menuingradientesbase";
 const Page8 = () => {
   return (
     <div className="fundo">
       <Menuingradientesbase />
-      <div className="pagina1">
-        <div className="h3 text-center">Principais Tipos de Pães</div>
-        <div>
-          <img
-            className="img2"
-            alt="imgburguer"
-            src={Imagen17}
-            width="70%"
-          ></img>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="text-center h1 bg-dark text-light">Principais Tipos de Pães</div>
+        <div className= "d-inline p-2 text-center">
+          <img className="rounded mx-auto d-block" width="70%" alt="rounded mx-auto"src={Imagen17}    width="70%"   ></img>
         </div>
 
         <div className="texto">
@@ -44,17 +39,17 @@ const Page8 = () => {
           dúvidas, o pão pode ser trabalhado de diferentes formas também,
           inclusive, fazendo mais diferença do que a própria carne sabia? <br />
           <br />
-          <div className="titulo">Qual o melhor tipo de pão de hambúrguer?</div>
+          <div className="text-center h1 bg-dark text-light">Qual o melhor tipo de pão de hambúrguer?</div>
           <br />
           Sinceramente, é bem difícil ter uma única resposta para essa questão.
           O segredo está nas receitas, no capricho do padeiro, nos equipamentos
           disponíveis e na escolha de ingredientes de qualidade.
           <br />
           <br />
-          <div className="titulo">1. Pão de hambúrguer americano</div>
+          <div className="text-center h1 bg-dark text-light">1. Pão de hambúrguer americano</div>
           <br />
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen18} width="100%"></img>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Imagen18} width="100%"></img>
           </div>
           Considerado o mais tradicional dos pães, é o clássico das
           Hamburguerias, em geral, principalmente do fast food. Normalmente, a
@@ -63,9 +58,9 @@ const Page8 = () => {
           ou óleo. Quase no final da preparação, antes de os pães serem assados,
           também é adicionado um pouco de gergelim na superfície da massa já
           moldada.
-          <div className="titulo"> 2. Pão italiano</div>
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen19} width="100%"></img>
+          <div className="text-center h1 bg-dark text-light"> 2. Pão italiano</div>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Imagen19} width="100%"></img>
           </div>
           Caracterizado por ter uma casca mais grossa, mas com um miolo de
           extrema maciez, o pão italiano normalmente é feito de um jeito mais
@@ -89,9 +84,9 @@ const Page8 = () => {
           ficar bem suculenta.
           <br />
           <br />
-          <div className="titulo"> 3. Pão Brioche</div>
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen20} width="100%"></img>
+          <div className="text-center h1 bg-dark text-light"> 3. Pão Brioche</div>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Imagen20} width="100%"></img>
           </div>
           O brioche é de origem francesa, tem uma crosta bem dourada e é feito
           com os mesmos ingredientes do pão tradicional, contudo, é acrescido de
@@ -120,9 +115,9 @@ const Page8 = () => {
           utilizado na preparação de hambúrgueres gourmet.
           <br />
           <br />
-          <div className="titulo">4. Pão australiano</div>
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen21} width="100%"></img>
+          <div className="text-center h1 bg-dark text-light">4. Pão australiano</div>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Imagen21} width="100%"></img>
           </div>
           Com um sabor marcante e uma aparência impactante, o pão australiano
           tem uma coloração escura, uma casca crocante, um interior macio e um
@@ -142,18 +137,18 @@ const Page8 = () => {
           bacon e salada de alface e tomate.
           <br />
           <br />
-          <div className="titulo">5. Pão Francês</div>
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen22} width="100%"></img>
+          <div className="text-center h1 bg-dark text-light">5. Pão Francês</div>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Imagen22} width="100%"></img>
           </div>
           Com um sabor incomparável do nosso dia a dia em nossas mesas o Pão
           Francês Ainda é extremamente saboroso e por isso, tem sido bastante
           utilizado na preparação de hambúrgueres gourmet.
           <br />
           <br />
-          <div className="titulo">Selando os Pães</div>
-          <div className="img1">
-            <img alt="imgburguer" src={Imagen23} width="100%"></img>
+          <div className="text-center h1 bg-dark text-light">Selando os Pães</div>
+          <div className="rounded mx-auto">
+            <img alt="rounded mx-auto" src={Selado} width="100%"></img>
           </div>
           Para não encharcar o pão com a gordura ou com o molho é necessário
           selar ele antes de montar o hambúrguer, para isso passamos a manteiga

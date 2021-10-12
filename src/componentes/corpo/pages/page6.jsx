@@ -2,12 +2,12 @@ import React from "react";
 const Page6 = () => {
   return (
     <div className="fundo">
-      <div className="pagina1">
-        <div className="h3 text-center">Rota do Entregador</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="text-center h1 bg-dark text-light">Rota do Entregador</div>
         <br />
         <div class="texto">
-          <br />
-          <br /> Quando se trata de contratar funcionários para entrega, existem
+        
+          Quando se trata de contratar funcionários para entrega, existem
           alguns caminhos a serem seguidos. As empresas têm a opção de contratar
           alguém para ser um entregador de meio período ou um funcionário de
           tempo integral que não faz nada além da entrega. <br />
@@ -44,9 +44,9 @@ const Page6 = () => {
           <br />
           <br />
           Temos na internet vários programas gratuitos e programas pagos como o
-          que uso, é prático. <br />
-          <a href="/https://www.grandchef.com.br/">Grandchef</a>.
-          <a href="www.supersimples.kasol.com.br">Super Simples</a>
+          que uso, é prático. 
+          <a href="/https://www.grandchef.com.br/"><b>Grandchef</b></a>,     
+          <a href="www.supersimples.kasol.com.br"><b>Super Simples</b></a>.
           <br />
           <br />
           <br />

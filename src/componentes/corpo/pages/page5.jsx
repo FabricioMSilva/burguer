@@ -5,9 +5,9 @@ const Page5 = () => {
   return (
     <div className="fundo">
       <Menuplan />
-      <div class="pagina1">
-        <div class="h2 text-center">EMBALAGENS</div>
-        <div class="texto">
+      <div class="pagina1 text-center px-4 mt-4">
+        <div class="text-center h1 bg-dark text-light">Embalagens</div>
+        <div class="texto text-justify">
           <br />
           <b>Escolha as melhores Embalagens:</b>
           <br />

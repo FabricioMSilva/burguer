@@ -4,7 +4,7 @@ const Page9 = () => {
   return (
     <div className="fundo">
       <Menuingradientesbase />
-      <div className="pagina1">
+      <div className="pagina1 text-center px-4 ">
         <div className="h2 text-center">Montagem Hambúrguer Artesanal</div>
 
         <div className="texto">

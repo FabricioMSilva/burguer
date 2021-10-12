@@ -1,0 +1,13 @@
+.Zapp {
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 80%;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+  }
+  

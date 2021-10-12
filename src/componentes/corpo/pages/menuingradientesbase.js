@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Video/App1.css";
+import Burguer from "./imagens_pages/numeradas/1.png"
 
 function Menuingradientesbase() {
   return (
@@ -34,9 +35,12 @@ function Menuingradientesbase() {
               </Link>
             </div>
           </section>
+
         </nav>
       </div>
-      <div className="pagina1"></div>
+      <div className="pagina1">
+      
+      </div>
     </div>
   );
 }

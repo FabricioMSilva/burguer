@@ -6,14 +6,14 @@ import Imagen25 from "./imagens_pages/numeradas/25.png";
 const Page13 = () => {
   return (
     <div className="fundo">
-      <div className="pagina1">
-        <div className="texto">
+      <div className="pagina1 text-center px-4 mt-4">
+        <div className="texto text-justify">
           <div className="h1 text-center">Acompanhamentos</div>
           <br />
           <br />
-          <div className="titulo">Batata Rústica</div>
-          <div>
-            <img className="foto1" alt="imgburguer" src={Imagen23}></img>
+          <div className="h1 text-center">Batata Rústica</div>
+          <div className="d-inline p-2">
+            <img className="rounded mx-auto d-block" alt="imgburguer"width="50%"src={Imagen23}></img>
           </div>
           <br />
           <br />
@@ -38,13 +38,13 @@ const Page13 = () => {
           depois vire deixando por mais 20 a 30 minutos.
           <br />
           <br />
-          <div className="titulo">Onion ring’s</div>
-          <div>
-            <img className="foto1" alt="imgburguer" src={Imagen24}></img>
+          <div className="h1 text-center">Onion ring’s</div>
+          <div className="d-inline p-2">
+            <img className="rounded mx-auto d-block" width="50%" alt="imgburguer" src={Imagen24}></img>
           </div>
           <br />
           <br />
-          INGREDIENTES
+          <div className="subtitulo"> Ingradientes </div>
           <br />
           <br />
           ⦁ 1 cebola média
@@ -65,7 +65,7 @@ const Page13 = () => {
           ⦁ óleo para fritar
           <br />
           <br />
-          <div className="subtitulo"> MODO DE PREPARO </div>
+          <div className="subtitulo"> Modo de Preparo </div>
           <br />
           <br />
           ⦁ Descasque a cebola.
@@ -102,9 +102,9 @@ const Page13 = () => {
           ⦁ Esquente bem o óleo e frite
           <br />
           <br />
-          <div className="titulo">Bacon Crocante</div>
+          <div className="h1 text-center">Bacon Crocante</div>
           <div>
-            <img className="foto1" alt="imgburguer" src={Imagen25}></img>
+            <img className="rounded mx-auto d-block" width="50%" alt="imgburguer" src={Imagen25}></img>
           </div>
           <br />
           <br />
@@ -119,9 +119,8 @@ const Page13 = () => {
           O Bacon tem que estar com uma temperatura ambiente, evite colocar o
           mesmo na chapa congelado. Pois vem a perder seu sabor.
           <br />
-          <br />
-          cls
-          <br />
+    
+          
           <br />
           Após retire o mesmo e coloque em uma bandeja com papel toalha para
           absolver a gordura. E pronto, seu bacon está pronto.

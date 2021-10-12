@@ -1,23 +1,22 @@
 import React from "react";
 import "./style.css";
+import Menuplan from "./Menuplanbase";
 
 const Page2 = () => {
   return (
     <div className="fundo">
-      <div className="pagina1">
-        <div class="titulo">PLANEJAMENTO</div>
-
-        <div class="texto">
-          Para quem é apaixonado por esse ramo, e quer abrir seu próprio
-          negócio, uma Hamburgueria é uma boa opção já que esse mercado está em
-          grande expansão.
-          <br />
-          <br />
-          <p align="center" class="subtitulo">
+      
+       <Menuplan />
+      <div className="pagina1 text-center px-4 mt-4">
+    
+        <div className="text-center h4">
+       
             <b>
               Deve seguir alguns passos fundamentais para o sucesso do Negócio
             </b>
-          </p>{" "}
+        </div>
+        <div className="texto text-justify" margin-left="10px">
+          
           <br />
           <p>
             <b>Plano de Negócio:</b>

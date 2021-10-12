@@ -1,16 +1,16 @@
 import React from "react";
 import Vid1 from "./Video/VID-20210712-WA0029.mp4.mp4";
 import "./style.css";
-import Poster from "./imagens_pages/numeradas/1.png";
+
 const Page1 = () => {
   return (
     <div className="fundo">
       <div className="pagina1">
-        <div className="titulo">
-          Bem-vindo (a) ao Curso de Hambúrguer Artesanal do E! Burger’s
+        <div className="h2 text-center px-4 mt-4">
+          Bem-vindo (a) ao Curso de Hambúrguer <br/> Artesanal do E! Burger’s
         </div>
 
-        <div className="texto">
+        <div className="texto text-center px-4 mt-4">
           Olá, Seja bem-vinda (o) a Família E! Burger’s - Curso de Hambúrguer
           Artesanal Sou Ernane Mendes, e a partir de agora, irei mostrar a você
           como tirar seu sonho do papel e transformar em realidade. Pois foi
@@ -22,16 +22,10 @@ const Page1 = () => {
           partir de HOJE, para SEMPRE, isso mesmo, VITALÍCIO que você nunca mais
           irá esquecer.
         </div>
-        <div className="vid1">
-          <video
-            src={Vid1}
-            autoplay
-            poster={Poster}
-            controls
-            width="100%"
-          ></video>
+        <div className="embed-responsive embed-responsive-16by9 text-center px-4 mt-4">
+          <iframe  className="embed-responsive-item"  src={Vid1} allowfullscreen></iframe>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 };

@@ -4,10 +4,10 @@ const Page4 = () => {
   return (
     <div className="fundo">
       <Menuplan />
-      <div className="pagina1">
-        <div class="h2 text-center">Publicidade</div>
+      <div className="pagina1 text-center px-4 mt-4">
+        <div class="text-center h1 bg-dark text-light">Publicidade</div>
 
-        <div class="texto">
+        <div class="texto text-justify ">
           <br /> A publicidade que você terá menos investimento e rápido retorno
           será através das Redes Sociais. <br />
           Crie uma Fanpage no Facebook (página) e mantenha atualizada com
@@ -38,6 +38,8 @@ const Page4 = () => {
           <br />
           Certos preços e formatos de preços são mais irresistíveis para os
           clientes do que outros.
+          <br />
+          <br />
         </div>
       </div>
     </div>

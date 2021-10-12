@@ -1,6 +1,6 @@
 import "./style.css";
 import React from "react";
-import Zap from "./img/whatsapp-icone-1.png";
+
 import { Link } from "react-router-dom";
 
 function Page0() {
@@ -26,7 +26,7 @@ function Page0() {
               </Link>
               <Link
                 className="nav-item nav-link btn-group text-white btn-dark"
-                to="menuplan"
+                to="pag2"
               >
                 PLANEJAMENTO
               </Link>
@@ -53,7 +53,7 @@ function Page0() {
             </div>
           </section>
           <button
-            className="navbar-toggle text-dark"
+            className="navbar-toggle text-dark d-lg-none"
             type="button"
             data-toggle="collapse"
             data-target="#navbarToggleExternalContent"
@@ -66,11 +66,7 @@ function Page0() {
         </nav>
       </div>
 
-      <div>
-        <Link to="https://api.whatsapp.com/send?phone=5524999166171&text=Ola%20gostaria%20de%20conversar%20sobre%20curso%20do%20e-burguer">
-          <img className="Zapp" src={Zap} alt="zapzap"></img>
-        </Link>
-      </div>
+      
     </div>
   );
 }
