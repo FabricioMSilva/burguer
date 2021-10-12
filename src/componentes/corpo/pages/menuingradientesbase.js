@@ -12,9 +12,10 @@ function Menuingradientesbase() {
         <nav
           className="navbar navbar-expand-md navbar-dark bg-dark"
           role="navigation"
+        
         >
           <section
-            className="collapse navbar-collapse justify-content-center "
+            className="collapse navbar-collapse justify-content-center  "
             id="navbarToggleExternalContent"
           >
             <div className="navbar-nav  ">

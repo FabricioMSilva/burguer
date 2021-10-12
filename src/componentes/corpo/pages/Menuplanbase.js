@@ -10,8 +10,7 @@ function Menuplanbase() {
       <div className="container-fluid p-0 ">
         <nav
           className="navbar navbar-expand-md navbar-dark bg-dark"
-          role="navigation"
-        >
+          role="navigation">
           <section
             className="collapse navbar-collapse justify-content-center  "
             id="navbarToggleExternalContent"
