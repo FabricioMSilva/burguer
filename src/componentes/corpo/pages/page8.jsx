@@ -14,7 +14,7 @@ const Page8 = () => {
       <div className="pagina1 text-center px-4 mt-4">
         <div className="text-center h1 bg-dark text-light">Principais Tipos de Pães</div>
         <div className= "d-inline p-2 text-center">
-          <img className="rounded mx-auto d-block" width="70%" alt="rounded mx-auto"src={Imagen17}    width="70%"   ></img>
+          <img className="rounded mx-auto d-block" width="70%" alt="foto"src={Imagen17}></img>
         </div>
 
         <div className="texto">

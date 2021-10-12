@@ -18,7 +18,7 @@ const Page7 = () => {
           mistura entre cortes com mais e menos gordura.
           <br />
           <div className="d-inline p-2 text-center">
-            <img className="rounded mx-auto d-block" width="50%" alt="imgburguer"src={imagen15} width="100%"></img>
+            <img className="rounded mx-auto d-block" width="80%" alt="imgburguer"src={imagen15} ></img>
           </div>
           <br />
           <div className="text-center h1 bg-dark text-light">Peso do Hambúrguer</div>

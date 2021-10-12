@@ -6,7 +6,7 @@ function Ingradientes(){
 
 return(
 <div>
-    <img src={Burguer} className="rounded mx-auto d-block" width="70%" alt="rounded mx-auto"alt="foto"></img>
+    <img src={Burguer} className="rounded mx-auto d-block" width="70%" alt="foto"></img>
 
 
 </div>

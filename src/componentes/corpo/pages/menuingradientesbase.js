@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Video/App1.css";
-import Burguer from "./imagens_pages/numeradas/1.png"
+
 
 function Menuingradientesbase() {
   return (
     <div className="menu " role="navigation">
-      <div className="text-center h1 bg-light">Ingradientes</div>
+      <div className="text-center h1 bg-light">Ingredientes</div>
 
       <div className="container-fluid p-0 ">
         <nav
