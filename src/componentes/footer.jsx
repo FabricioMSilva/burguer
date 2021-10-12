@@ -21,13 +21,13 @@ return (
                     <div class="col-sm-6 col-md-3 item">
                         <h3>E-Burguer</h3>
                         <ul>
-                            <li><a>Home</a></li>
-                            <li><a>Planejamento</a></li>
-                            <li><a>Logistica</a></li>
-                            <li><a>Marketing</a></li>
-                            <li><a>Equipamentos</a></li>
-                            <li><a>Ingradientes</a></li>
-                            <li><a>Acompanhamentos</a></li>
+                            <li>Home</li>
+                            <li>Planejamento</li>
+                            <li>Logistica</li>
+                            <li>Marketing</li>
+                            <li>Equipamentos</li>
+                            <li>Ingradientes</li>
+                            <li>Acompanhamentos</li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
