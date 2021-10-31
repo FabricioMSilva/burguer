@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home1 from "./componentes/corpo/pages/Home";
 import Page3 from "./componentes/corpo/pages/page3";
-import Page2 from "./componentes/corpo/pages/page2";
+
 import Page4 from "./componentes/corpo/pages/page4";
 import Page5 from "./componentes/corpo/pages/page5";
 import Page6 from "./componentes/corpo/pages/page6";
@@ -18,6 +18,7 @@ import Menuplan from "./componentes/corpo/pages/menuplan";
 import Menuingradientes from "./componentes/corpo/pages/menuindradientes";
 import Footer1 from "./componentes/footer.jsx"
 import BtoZap from "./componentes/zap/Zapbto";
+import Planejamento1 from "./componentes/corpo/pages/Planejamento";
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         </div>
         
         <Switch>
-        <Route path="/pag2" component={Page2} />
+        <Route path="/Planejamento" component={Planejamento1} />
           <Route path="/" exact component={Home} />
           <Route path="/Home" component={Home1} />
           <Route path="/menuplan" component={Menuplan} />
