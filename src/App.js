@@ -30,8 +30,8 @@ function App() {
         </div>
         
         <Switch>
-        <Route path="/Planejamento" component={Planejamento1} />
-          <Route path="/" exact component={Home} />
+          <Route path="/Planejamento" component={Planejamento1} />
+          <Route path="/" exact component={Home1} />
           <Route path="/Home" component={Home1} />
           <Route path="/menuplan" component={Menuplan} />
           <Route path="/pag3" component={Page3} />
