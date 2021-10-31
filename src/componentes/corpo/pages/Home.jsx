@@ -2,7 +2,7 @@ import React from "react";
 import Vid1 from "./Video/VID-20210712-WA0029.mp4.mp4";
 import "./style.css";
 
-const Page1 = () => {
+const Home1 = () => {
   return (
     <div className="fundo">
       <div className="pagina1">
@@ -30,4 +30,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default Home1;

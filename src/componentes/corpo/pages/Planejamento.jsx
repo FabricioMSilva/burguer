@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Menuplan from "./Menuplanbase";
 
-const Page2 = () => {
+const Planejamento1 = () => {
   return (
     <div className="fundo">
       
@@ -10,14 +10,14 @@ const Page2 = () => {
       <div className="pagina1 text-center px-4 mt-4">
     
         <div className="text-center h4">
-       
+        <br/>  <br/>
             <b>
               Deve seguir alguns passos fundamentais para o sucesso do Negócio
             </b>
         </div>
         <div className="texto text-justify" margin-left="10px">
           
-          <br />
+          <br/>
           <p>
             <b>Plano de Negócio:</b>
             <br /> Coloque tudo no papel e siga à risca. Conheça a sua demanda
@@ -47,4 +47,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default Planejamento1 ;

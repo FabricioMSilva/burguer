@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Page1 from "./componentes/corpo/pages/page1";
+import Home1 from "./componentes/corpo/pages/Home";
 import Page3 from "./componentes/corpo/pages/page3";
 import Page2 from "./componentes/corpo/pages/page2";
 import Page4 from "./componentes/corpo/pages/page4";
@@ -30,8 +30,8 @@ function App() {
         
         <Switch>
         <Route path="/pag2" component={Page2} />
-          <Route path="/" exact component={Page1} />
-          <Route path="/pag1" component={Page1} />
+          <Route path="/" exact component={Home} />
+          <Route path="/Home" component={Home1} />
           <Route path="/menuplan" component={Menuplan} />
           <Route path="/pag3" component={Page3} />
           <Route path="/pag4" component={Page4} />

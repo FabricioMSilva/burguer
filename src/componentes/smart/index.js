@@ -26,7 +26,7 @@ function Page0() {
               </Link>
               <Link
                 className="nav-item nav-link btn-group text-white btn-dark"
-                to="pag2"
+                to="Planejamento"
               >
                 PLANEJAMENTO
               </Link>
